@@ -79,7 +79,8 @@ public class FlutterBluetoothSerialPlugin implements FlutterPlugin, ActivityAwar
     private Context activeContext;
 
     /// Constructs the plugin instance
-    public FlutterBluetoothSerialPlugin() {
+    public FlutterBluetoothSerialPlugin(){
+
 
         // State
         stateReceiver = new BroadcastReceiver() {
